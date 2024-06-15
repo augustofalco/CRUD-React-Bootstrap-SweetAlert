@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+.green-modal {
+  background-color: #28a745; /* Verde de Bootstrap */
+}
+
 .datos {
   display: flex;
   flex-direction: column;
@@ -25,4 +29,25 @@
   width: 320px;
   height: 50px;
   margin-top: 15px;
+}
+
+.navbar-custom {
+  display: flex;
+  justify-content: justify;
+  align-items: justify;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.text-white {
+  color: white;
+  text-decoration: none;
+}
+
+.text-white:hover {
+  text-decoration: underline;
 }
